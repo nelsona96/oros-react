@@ -1,7 +1,7 @@
+import HomePage from "./components/pages/home/home";
+
 function App() {
-  return (
-    <div>Oros Productions</div>
-  );
+  return <HomePage />;
 }
 
 export default App;
