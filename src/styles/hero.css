@@ -6,9 +6,9 @@
 
 .hero__video-wrapper {
   width: 100%;
-  max-height: calc(100vh - 60px); /*making room for nav bar*/
-  border-top: 1px solid #b89c5a;
-  border-bottom: 1px solid #b89c5a;
+  max-height: calc(100vh - 60px);
+  border-top: 1px solid var(--accent-primary);
+  border-bottom: 1px solid var(--accent-primary);
   pointer-events: none;
   display: flex;
   align-items: center;
