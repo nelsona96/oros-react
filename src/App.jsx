@@ -1,7 +1,13 @@
+import Nav from "./components/Nav";
 import HomePage from "./pages/home";
 
 function App() {
-  return <HomePage />;
+  return (
+    <>
+      <Nav />
+      <HomePage />
+    </>
+  );
 }
 
 export default App;

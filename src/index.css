@@ -10,6 +10,16 @@ section {
   padding: 16px 0;
 }
 
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
 .container {
   padding: 0 16px;
   width: 100%;
