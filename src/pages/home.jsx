@@ -1,9 +1,9 @@
+import Hero from "../components/home/Hero";
+
 export default function HomePage() {
   return (
     <main>
-      <section id="hero">
-        <h1 className="section__title hero__title">HERO: FULL SCREEN VIDEO</h1>
-      </section>
+      <Hero />
       <section id="gallery">
         <div className="container">
           <h2 className="section__title gallery__title">Some of Our Work</h2>
