@@ -14,7 +14,7 @@ export default function Hero() {
   return (
     <section id="hero">
       <figure className="hero__video-wrapper">
-        <MuxPlayer {...settings} />
+        <MuxPlayer className="hero__video" {...settings} />
       </figure>
     </section>
   );
