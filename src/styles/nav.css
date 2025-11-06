@@ -26,7 +26,7 @@ nav {
 }
 
 .logo__text {
-  color: #f8f8f8;
+  color: var(--text-primary);
   font-size: 48px;
   font-weight: 600;
   letter-spacing: 7px;
@@ -46,7 +46,7 @@ nav {
 }
 
 .nav__link {
-  color: #f8f8f8;
+  color: var(--text-primary);
   font-size: 18px;
   letter-spacing: 2px;
   margin-left: 24px;
@@ -62,5 +62,5 @@ nav {
 }
 
 .nav__link:hover {
-  color: #b89c5a;
+  color: var(--accent-primary);
 }
